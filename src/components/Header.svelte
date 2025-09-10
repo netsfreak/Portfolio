@@ -18,14 +18,26 @@ y>0 ? ' py-4 bg-slate-950 border-violet-950 ' : ' py-6  bg-transparent border-tr
         {/each}
             </div>
 
-    <a 
-    href="mailto:snghshreedhar@gmail.com"
-    target="_blank"
-    class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950">
-        <div class='absolute top-9 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full duration-200 ease-in-out'></div>
-    <h4 class="relative z-10">
-        Get in Touch
-    </h4>
-
-    </a>
+    <div class="flex items-center gap-3">
+        <a 
+        href="/Shreedhar'sCV.pdf"
+        download="Shreedhar'sCV.pdf"
+        class="blueShadow relative overflow-hidden px-4 py-2 group rounded-full bg-green-600 text-white hover:bg-green-700 duration-200">
+            <div class='absolute top-0 right-full w-full h-full bg-green-400 opacity-20 group-hover:translate-x-full duration-200 ease-in-out'></div>
+            <h4 class="relative z-10 text-sm">
+                <i class="fa-solid fa-download mr-1"></i>
+                Resume
+            </h4>
+        </a>
+        
+        <a 
+        href="mailto:snghshreedhar@gmail.com"
+        target="_blank"
+        class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950">
+            <div class='absolute top-9 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full duration-200 ease-in-out'></div>
+            <h4 class="relative z-10">
+                Get in Touch
+            </h4>
+        </a>
+    </div>
 </header>
