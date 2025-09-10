@@ -3,13 +3,13 @@
 
     let steps= [
         {
-            name: 'Event Ticket Platform', icon: 'fa-solid fa-ticket'
+            name: 'Event Ticket Platform', icon: 'fa-solid fa-ticket', href: 'https://github.com/netsfreak/event-ticket-platform'
         },
         {
-            name: 'Yet To Update', icon: 'fa-solid fa-list-check'
+            name: 'Yet To Update', icon: 'fa-solid fa-list-check', href: 'https://github.com/netsfreak'
         },
         {
-            name: 'Yet to update', icon: 'fa-solid fa-diagram-project'
+            name: 'Yet to update', icon: 'fa-solid fa-diagram-project', href: 'https://github.com/netsfreak'
         },
     ]
 
@@ -52,7 +52,7 @@
             <img src={"images/profile.png"} alt="Profile image" class="object-cover z-[2] max-h-[70vh]"/>
         </div>
     </section>
-    <section id="projects" class= "py-2- lg:py-32 flex flex-col gap-24">
+    <section id="projects" class= "py-2 lg:py-32 flex flex-col gap-24">
     <div class="flex flex-col gap-2 text-center">
         <h6 class="text-large sm:text-xl md:text-2xl">
             A few of my creative endeavors.
@@ -66,7 +66,7 @@
   href="https://blogs.mtdv.me/videos/tIojEbtonl"
   target="_blank"
   rel="noopener noreferrer"
-  class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 hover:border-green-700 duration-200"
+  class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 hover:border-green-700 duration-200 cursor-pointer relative z-10"
 >
   <i class="fa-regular fa-circle-play"></i>
   <p>Watch The Video</p>
