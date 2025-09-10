@@ -2,7 +2,7 @@
     export let y;
 
     let tabs = [{name: 'Projects', link:'#projects'},
-                {name: 'About Me', link:'#about'},];
+                {name: 'About Me', link:'#About'},];
 </script>
 
 <header class={'sticky z-10 top-0 duration-200 px-6 flex items-center justify-between border border-solid' + (

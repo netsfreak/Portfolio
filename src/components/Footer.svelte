@@ -10,7 +10,7 @@
         <p><b class="pr-2">Phone</b> +91 7718076213</p>
         <p>
         <b class="pr-2">GitHub</b>
-        <a class="text-green-400" target="_blank" href="https://github.com/netsfreak">
+        <a class="text-green-400 hover:text-green-300 cursor-pointer relative z-10" target="_blank" href="https://github.com/netsfreak" on:click={() => console.log('GitHub link clicked!')}>
             netsfreak<sup >
                 <span class="text-xs scale-75 pl-0.5">
                 <i 
